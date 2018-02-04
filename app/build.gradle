@@ -22,4 +22,13 @@ android {
 dependencies {
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-core:2.0.90-beta'
+//retrofit框架
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+//    RxJava + Retrofit的使用需要用到这个包
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+//    rxandroid是有Rxjava延伸出来的，所以两个都要用
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+
 }
